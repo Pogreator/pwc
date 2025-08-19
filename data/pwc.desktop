@@ -1,0 +1,7 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=pwc
+Comment=A wayland compositor
+Exec=pwc
+Type=Application
+DesktopNames=pwc;wlroots

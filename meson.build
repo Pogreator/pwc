@@ -95,3 +95,7 @@ server_protos,
 subdir('src')
 
 executable('pwc', pwc_sources, include_directories: [pwc_inc], dependencies: pwc_deps, install: true,)
+
+install_data('data/pwc.desktop', install_dir: get_option('datadir') / 'wayland-sessions')
+
+install_data('data/pwc-portals.conf', install_dir: get_option('datadir') / 'xdg-desktop-portal')
