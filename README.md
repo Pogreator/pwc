@@ -17,6 +17,8 @@ Currently WIP. It has no features other than working :/.
 - xcb-util
 - vulkan-renderer
 
+And whatever else meson tells you is needed
+
 ## Building it
 
 1. `git clone https://github.com/Pogreator/pwc.git`
