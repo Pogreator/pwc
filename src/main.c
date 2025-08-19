@@ -162,8 +162,7 @@ static bool handle_keybindings(struct pwc_server *server, xkb_keysym_t sym){
             break;
         case XKB_KEY_Return:
             // Open terminal
-            system("konsole &");
-            printf("Running Konsole...\n");
+            system("alacritty &");
             break;
         default: return false;
     }

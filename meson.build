@@ -72,9 +72,11 @@ endif
 
 pwc_inc = include_directories('include')
 
+subdir('protocols')
+
 pwc_deps = [
+server_protos,
   wayland_server,
-  wayland_protos,
   wlroots,
   xkbcommon,
   xcb_ewmh,
@@ -92,4 +94,4 @@ pwc_deps = [
 
 subdir('src')
 
-executable('pwc', pwc_sources, include_directories: [pwc_inc], dependencies: pwc_deps, install: false,)
+executable('pwc', pwc_sources, include_directories: [pwc_inc], dependencies: pwc_deps, install: true,)
