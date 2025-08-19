@@ -2,6 +2,7 @@
 
 <img width="4080" height="3072" alt="image" src="https://github.com/user-attachments/assets/27cecfa0-1a31-45d9-891d-524d41f1a7ef" />
 <sub> no screenshotting tool works with it :/ </sub>
+
   
 PWC is a wayland compositor made for fun. Is it ever going to be the best? probably not.  
 Currently WIP. It has no features other than working :/.  
