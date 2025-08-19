@@ -24,4 +24,4 @@ Currently WIP. It has no features other than working :/.
 3. `meson setup build`
 4. `ninja -C build`
 
-To open, simply execute `pwc` in the create build directory.
+To open, simply execute `pwc` in the created build directory.
